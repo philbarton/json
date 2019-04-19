@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a11a7bb-feed-4ea1-afd3-6e1c1a1b095e" name="Default Changelist" comment="" />
+    <list default="true" id="4a11a7bb-feed-4ea1-afd3-6e1c1a1b095e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/maclon/json/JsonPatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/maclon/json/JsonPatchTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +43,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/uk/maclon/json/JsonPatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="275">
+              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2142#2186#0" />
+                <element signature="e#2584#2628#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/com/jayway/jsonpath/JsonPath.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="234" column="24" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,6 +79,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,6 +166,28 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.jayway.jsonpath:json-path:2.4.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.jayway.jsonpath:json-path:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="json-path-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.jayway.jsonpath:json-path:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="json-path-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonpath" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,6 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
   </component>
   <component name="RecentsManager">
@@ -282,15 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EvaluateTest_parse2 - 2019.04.19 at 10h 43m 33s.xml">
-      <configuration name="EvaluateTest.parse2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluateTest_parse2 - 2019.04.19 at 10h 44m 04s.xml">
-      <configuration name="EvaluateTest.parse2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluateTest_parse2 - 2019.04.19 at 10h 44m 07s.xml">
-      <configuration name="EvaluateTest.parse2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EvaluateTest_parse3 - 2019.04.19 at 10h 45m 21s.xml">
       <configuration name="EvaluateTest.parse3" configurationId="JUnit" />
     </history-entry>
@@ -312,14 +343,23 @@
     <history-entry file="JsonPatchTest_patch1 - 2019.04.19 at 11h 46m 51s.xml">
       <configuration name="JsonPatchTest.patch1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonPatchTest_patch1 - 2019.04.19 at 11h 52m 27s.xml">
+      <configuration name="JsonPatchTest.patch1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonPatchTest_patch1 - 2019.04.19 at 12h 00m 16s.xml">
+      <configuration name="JsonPatchTest.patch1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonPatchTest_patch1 - 2019.04.19 at 12h 03m 34s.xml">
+      <configuration name="JsonPatchTest.patch1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="23" width="1594" height="987" extended-state="0" />
+    <frame x="36" y="23" width="1594" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -327,7 +367,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32912844" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32912844" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32912844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,6 +387,12 @@
           <line>54</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/uk/maclon/json/JsonPatchTest.java</url>
+          <line>19</line>
+          <properties field="json" class="uk.maclon.json.JsonPatchTest" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -400,12 +446,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/com/jayway/jsonpath/JsonPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="234" column="24" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/uk/maclon/json/JsonPatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="275">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2142#2186#0" />
+            <element signature="e#2584#2628#0" />
           </folding>
         </state>
       </provider>

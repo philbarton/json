@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
+import static com.jayway.jsonpath.JsonPath.read;
+import static java.lang.String.format;
+
 public class JsonPatchTest {
     private static final Logger LOG = LoggerFactory.getLogger(JsonPatchTest.class);
 
@@ -51,18 +54,16 @@ public class JsonPatchTest {
             "    },\n" +
             "    \"expensive\": 10\n" +
             "}";
+    private ObjectMapper mapper = new ObjectMapper();
 
     @Test
     public void patch1() {
 
-        Object document = Configuration.defaultConfiguration().jsonProvider().parse(json);
+        String bicycleColor = read(json, "$.store.bicycle.color");
 
-        String bicycleColor = com.jayway.jsonpath.JsonPath.read(document, "$.store.bicycle.color");
-
-        ObjectMapper mapper = new ObjectMapper();
         try {
 
-            String patchStr = "[{ \"op\": \"add\", \"path\": \"/partitionId\", \"value\": \""+ bicycleColor + "\" }]";
+            String patchStr = format("[{ \"op\": \"add\", \"path\": \"/partitionId\", \"value\": \"%s\" }]", bicycleColor);
             JsonPatch patch = JsonPatch.fromJson(mapper.readTree(patchStr));
 
             JsonNode orig = mapper.readTree(json);
